@@ -244,7 +244,7 @@
  .bannerText2,
  .bannerText3 {
      position: absolute;
-     top: 215%;
+     top: 455%;
      left: 50%;
      border-radius: 16px;
      border: 2px solid #FFF;
@@ -254,12 +254,12 @@
  }
 
  .bannerText2 {
-     top: 280%;
+     top: 525%;
      left: 20%;
  }
 
  .bannerText3 {
-     top: 345%;
+     top: 585%;
  }
 
  .lawAndTime {
@@ -341,7 +341,6 @@
      display: flex;
      justify-content: center;
      align-items: center;
-
      height: 502px;
      background: rgba(19, 19, 24, 0.05);
  }
@@ -401,7 +400,7 @@
      .bannerText2,
      .bannerText3 {
 
-         top: 330%;
+         top: 570%;
          left: 18%;
          border-radius: 16px;
          border: 2px solid #FFF;
@@ -411,12 +410,69 @@
      }
 
      .bannerText2 {
-         top: 363%;
+         top: 600%;
      }
 
      .bannerText3 {
-         top: 395%;
+         top: 635%;
      }
+ }
+ @media screen and (max-width: 768px) {
+    .firstBannerText {
+        
+        top: 42%;
+        left: 10%;
+        text-align: center;
+    }
+    .firstBannerText h1 {
+        color: #131318;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0;
+    }
+    .firstBannerInputs {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        
+    }
+
+    .firstBannerInputs input{
+margin-bottom: 6px;
+    }
+
+    .firstBannerInputs select{
+        margin-bottom: 6px;
+    }
+
+    .Testimonial p {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .footerSEction{
+        margin: 0 35px;
+        padding: 0 30px;
+    }
+
+    .section7Img {
+        justify-self: center;
+        
+    }
+
+    .grid-container5,
+    .grid-container6{
+        padding: 0 40px;
+    }
+   
+    /* .section7Img img {
+        width: 100%;
+    } */
  }
 
  @media screen and (max-width: 600px) {
